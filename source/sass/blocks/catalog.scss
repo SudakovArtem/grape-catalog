@@ -1,0 +1,19 @@
+.catalog {
+  padding: 100px 0;
+}
+
+.catalog__list {
+  width: calc(100% + 30px);
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.catalog__item {
+  width: calc(100% / 3 - 30px);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}

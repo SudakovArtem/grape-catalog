@@ -1,0 +1,2414 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>ProjectName</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="ProjectName — описание">
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <div class="visually-hidden"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="icon-close" viewBox="0 0 20 20"><path d="M.293 18.291a1 1 0 101.414 1.414L10 11.413l8.292 8.292a1 1 0 101.414-1.414l-8.292-8.292 8.292-8.292A1 1 0 1018.291.293L9.999 8.585 1.707.293A1 1 0 10.293 1.707L8.585 10 .293 18.291z"/></symbol></svg></div>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container"><span class="header__logo">Логотип</span>
+          <nav class="main-nav">
+            <button class="main-nav__toggle btn-reset" type="button" aria-label="Переключатель отображения меню" aria-pressed="false">
+              <svg width="20" height="20" aria-hidden="true">
+                <use xlink:href="#icon-burger"></use>
+              </svg>
+            </button>
+            <div class="main-nav__wrapper">
+              <ul class="main-nav__list">
+                <li class="main-nav__item"><span class="main-nav__link is-active">Главная</span>
+                </li>
+                <li class="main-nav__item"><a class="main-nav__link" href="#">Страница 2</a>
+                </li>
+                <li class="main-nav__item"><a class="main-nav__link" href="#">Страница 3</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="catalog">
+          <div class="catalog__container container">
+            <ul class="catalog__list">
+              <li class="catalog__item product-card">
+                <div class="product-card__slider">
+                  <div class="product-card__slider-list swiper-wrapper">
+                    <div class="product-card__img swiper-slide"><img src="img/slides/dolgojdannyi-1.jpg" srcset="img/slides/dolgojdannyi-1@2x.jpg 2x" width="300" height="300" alt="photo">
+                    </div>
+                    <div class="product-card__img swiper-slide"><img src="img/slides/dolgojdannyi-2.jpg" srcset="img/slides/dolgojdannyi-2@2x.jpg 2x" width="300" height="300" alt="photo">
+                    </div>
+                    <div class="product-card__img swiper-slide"><img src="img/slides/dolgojdannyi-3.jpg" srcset="img/slides/dolgojdannyi-3@2x.jpg 2x" width="300" height="300" alt="photo">
+                    </div>
+                  </div>
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Долгожданный</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 95-110</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 700-1500</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> 2,5-3</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -24</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> 34х22</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 10-Dec</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> желт</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 50</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 150</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Преображение</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 110-120</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 700-1500</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> 2,5-3</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -23</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> 40х23</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 14-20</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> розов</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Байконур</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 110-115</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-900</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -23</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Dec-18</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span>    </span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Заря Несветая</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 90-100</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span>   2,5-3</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -25</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 10-Dec</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т-красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> муск</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span>     </span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Карнавал</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 100-110</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 500-1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -24</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 10-Dec</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 250</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 350</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Памяти учителя</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 110-115</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 500-1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> 2,5-3</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -24</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Oct-15</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> л.мус</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Подарок несветая</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span>   90-100</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-800</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> 2,5-3</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -24</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Dec-16</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> муск</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Ромбик</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span>    90-100</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 500-800</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -24</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Oct-14</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> фиол</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 100</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Рошфор</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 90-100</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> 3-3,5</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -23</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 8-Dec</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т.красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> муск</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Сенатор</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 110-120</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-800</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -24</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Dec-14</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> розов</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> муск</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 100</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Супер экстра</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 90-100</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> 2-2,5</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -25</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 7-Oct</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> желт</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 150</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Эверест</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 100-110</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 700-1200</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> 2,5-3</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -24</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 18-25</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 100</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 200</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Богема</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 110-115</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 400-600</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -23</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 14-16</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> розов</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> л.мус</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 150</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Велес</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> оч.ранн</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> крупн</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -21</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 5</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> роз</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> л.мус.</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">к-ш Гелиодор</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 90-100</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-1200</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -21</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 6-Jul</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> желт</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> муск</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Ливия</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> Оч.ранн</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> Крупн.</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span>  3-3,5</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -21</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> 32х22</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 10</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> розов</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> муск</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 70</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">София *</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> Ранн.</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> Оч.крупн.</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> 3</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -21</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> 38х28</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 15</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> розов</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> муск</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 50</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Малиновый супер</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 90-100</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 1000-1500</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -25</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 15-18</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> малин</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Сенсация</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> ранн</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 700-1500</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -22</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 14-18</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> роз</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 70</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Фурор</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 90-100</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 800-1500</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -24</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 20-25</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т.син</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> муск</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 200</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Юлиан</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> Оч.ранн</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 800-1500</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> 2,5-3</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -24</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> 42х26</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 18-20</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> розов</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Валек</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> ранн</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 1500</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> 33х26</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> undefined</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> желт</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> муск</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Слава Украине</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 90-100</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-1500</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -23</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Dec-18</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span>   бел</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Хамелеон</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> ранн</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> До 2000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> undefined</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span>   роз</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Талдун</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 110-115</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-800</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -24</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 14-16</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т.красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Ливи ультра</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> оч.ранн</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> до 1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -22</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 16-20</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span>    красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> л.мус</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 200</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 350</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Минор</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 90-100</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-1200</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -23</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Dec-16</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span>   красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> муск</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Розалинда</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> оч.ранн</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 800-1200</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -23</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> удлин</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Dec-18</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> жел-роз</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 50</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Балтимор</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 110-115</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-1200</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 14-18</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> бел</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Брависсимо (к-ш)</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> оч.ранн</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> до 1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 10-Dec</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т.син</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span>   </span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Бруно</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> оч.ран</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 700-1200</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 8-Dec</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> фио-си</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 150</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 200</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Каталония</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 90-100</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 500-800</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -23</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Dec-18</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т.фиол</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 150</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 250</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Алвика</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span>  110-115</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 700-900</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -25</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 20-30</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> син-фи</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 200</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Альянс</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span>    90-100</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 700-900</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 14-20</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> фиол</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Белоснежка</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 90-100</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 900-1200</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -23</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Dec-14</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> желт</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> муск</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 150</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Княжна</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> ранний</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 800-1200</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 20-30</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> л.мус</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Красава </h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 110-115</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 800-1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -25</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> пальч.</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 16-20</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 250</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 400</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Мальчик с пальчик</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> ранний</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 700-1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 17-22</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> бел</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Натали</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> оч.ран</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 500-900</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -23</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 10-Dec</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т.син</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 500</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Находка Калугина</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> ранний</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 700-1200</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 20-25</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> крас-ф</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 300</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Олимп</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> ранний</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> до 1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 25-30</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т.крас</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 300</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 400</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Перцовый черный</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> оч.ран</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> до 1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 18-20</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т.син</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 400</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Посланник</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 125-135</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 800-1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -24</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 20-30</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т.крас</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 150</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 250</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Рембо</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 100-110</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-900</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -24</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 16-20</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т.син</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Торнадо</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 115-125</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 800-1200</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 20-25</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> кр-фио</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Художник</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> ранний</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 800-2000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 20-30</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 600</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Центурион</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> undefined</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -23</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 20-25</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т.син</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Черный кристалл</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 100-110</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 800-1500</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -24</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 16-20</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т.син</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 250</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Бананас</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 110-115</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 15</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> бел</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> фрукт</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span>   </span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Дынька</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 90-100</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -23</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Dec-14</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> муск</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span>  </span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Цимус (к-ш)</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> оч.ранн</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 800-1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 4-May</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> бел</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> муск</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span>   </span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Оскар (5 мм)</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> ранний</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 700-1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> 5см</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 10-Dec</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> крас</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Казанова</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 110-115</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 700-1500</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -23</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Dec-16</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> л.мус</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Дубовский розовый</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 90-100</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 1000-2000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -25</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 18-20</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> роз</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 100</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Пестрый</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 110-115</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 700-1200</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -24</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 10-Dec</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> роз</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> муск</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 250</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Гран-при</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 90</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 700-1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -24</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 10-Dec</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> роз</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> муск</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Изюмский мускат</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 100</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 700-900</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -26</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 7-Sep</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т.син</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> муск</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Князь Трубецкой</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 115-125</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 500-1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -23</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 14-16</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> кр-фио</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 200</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">МашА</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 115-125</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 700-2000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -23</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 14-18</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> желт</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 300</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Атос</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> оч.ран</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 800-1200</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -24</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 10-Dec</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> черн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 250</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Велюр</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> оч.ранн</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-800</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Dec-14</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> л.мус</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 500</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 800</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Ирис</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> оч.ранн</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-800</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Dec-14</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> л.мус</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 500</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 800</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Малиновая заря</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> оч.ранн</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-800</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Dec-14</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> л.мус</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 500</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 800</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Тальяночка</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> оч.ранн</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Dec-14</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т.красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> л.мус</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 500</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 800</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Щегол</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> ранний</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 600-800</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Dec-14</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т.красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> муск</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 500</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 800</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Соперник</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> оч.ранн</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> Dec-14</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> розов</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> мус</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 500</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 800</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Валентин</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 115-125</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 800-1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -25</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 15</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> син</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 100</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Велика            </h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span>     ранн</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 500-700</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> 38х23</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 12</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> фиолет</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 50</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Аватар</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 115-125</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> undefined</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> undefined</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т.син</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 500</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Алиса</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 115-125</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 700-1200</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -22</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 6-Aug</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 500</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Арарат</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 125</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 400-600</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -21</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 6-Jul</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> жел</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 500</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Ламборджини</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span>  120-130</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 500-900</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -21</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 6-Aug</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> жел</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 800</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> 800</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Хэллоуин</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 115-125</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> undefined</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> undefined</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> фиол</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 800</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Щелкунчик</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 115-125</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span>      700-1000</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -22</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 8</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> красн</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 800</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title">Юпитер (США)</h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 110-125</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> 300-500</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> 3</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> -27</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> удлин</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> 5-Jun</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> кр.фиол</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> л.мус   </span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> undefined</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog__item product-card">
+                <div class="product-card__img"><img src="img/content/placeholder.png" srcset="img/content/placeholder@2x.png 2x" width="120" height="120" alt="Пример">
+                </div>
+                <div class="product-card__content">
+                  <h2 class="product-card__title"></h2>
+                  <div class="product-card__cols">
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Характеристики</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__ripeningPeriod"><b>Срок созревания:</b><span> 115-125</span></li>
+                        <li class="product-card__bunchWeight"><b>Масса грозди:</b><span> undefined</span></li>
+                        <li class="product-card__diseaseResistance"><b>Устойчивость к болезням:</b><span> undefined</span></li>
+                        <li class="product-card__freezing"><b>Мороз:</b><span> undefined</span></li>
+                      </ul>
+                    </div>
+                    <div class="product-card__col">
+                      <h3 class="product-card__col-name">Ягода</h3>
+                      <ul class="product-card__col-list">
+                        <li class="product-card__size"><b>Размер:</b><span> undefined</span></li>
+                        <li class="product-card__weight"><b>Вес:</b><span> undefined</span></li>
+                        <li class="product-card__colour"><b>Цвет:</b><span> т.син</span></li>
+                        <li class="product-card__taste"><b>Вкус:</b><span> гарм</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-card__footer">
+                    <p class="product-card__cuttingPrice"><b>Цена черенка:</b><span> 500</span></p>
+                    <p class="product-card__seedlingPrice"><b>Цена саженца:</b><span> undefined</span></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container"></div>
+      </footer>
+    </div>
+    <script src="js/vendor.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

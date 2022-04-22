@@ -1,0 +1,74 @@
+extends ../components/base/layout
+
+block variables
+  - const title = "ProjectName" //- на страницах кроме главной используйте О нас — ProjectName
+  - const wrapperMods = ""
+  - const hasHeader = true
+  - const headerMods = ""
+  - const hasFooter = true
+  - const footerMods = ""
+  - const currentUrl = "index.html" //- для остальных страниц пишем пустую строку или индекс активного headerLinks
+  include ../data/data
+
+block main
+  main
+    //- на странице запрещен "голый" код
+    //- все блоки вставляются из папки pug/components/blocks
+    section.catalog
+      .catalog__container.container
+        ul.catalog__list
+          each card in catalogData
+            li.catalog__item.product-card
+              if card.photos
+                .product-card__slider
+                  .product-card__slider-list.swiper-wrapper
+                    each slide in card.photos
+                      .product-card__img.swiper-slide
+                        +img("slides", slide, "jpg", 300, 300, "photo")
+              else
+                .product-card__img
+                  +img("content", "placeholder", "png", 120, 120, "Пример")
+              .product-card__content
+                h2.product-card__title !{card.name}
+                .product-card__cols
+                  .product-card__col
+                    h3.product-card__col-name Характеристики
+                    ul.product-card__col-list
+                      li.product-card__ripeningPeriod
+                        b Срок созревания:
+                        span= " " + card.ripeningPeriod
+                      li.product-card__bunchWeight
+                        b Масса грозди:
+                        span= " " + card.bunchWeight
+                      li.product-card__diseaseResistance
+                        b Устойчивость к болезням:
+                        span= " " + card.diseaseResistance
+                      li.product-card__freezing
+                        b Мороз:
+                        span= " " + card.freezing
+
+                  .product-card__col
+                    h3.product-card__col-name Ягода
+                    ul.product-card__col-list
+                      li.product-card__size
+                        b Размер:
+                        span= " " + card.size
+                      li.product-card__weight
+                        b Вес:
+                        span= " " + card.weight
+                      li.product-card__colour
+                        b Цвет:
+                        span= " " + card.colour
+                      li.product-card__taste
+                        b Вкус:
+                        span= " " + card.taste
+
+                .product-card__footer
+                  p.product-card__cuttingPrice
+                    b Цена черенка:
+                    span= " " + card.cuttingPrice
+                  p.product-card__seedlingPrice
+                    b Цена саженца:
+                    span= " " + card.seedlingPrice
+
+block modals
